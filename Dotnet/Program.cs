@@ -72,6 +72,7 @@ public class cardHolder
     {
         void printOptions()
         {
+            Console.WriteLine("__________________________________________________");
             Console.WriteLine("Please choose from one of the following options...");
             Console.WriteLine("1. Deposit");
             Console.WriteLine("2. Withdraw");
@@ -158,6 +159,7 @@ public class cardHolder
                 Console.WriteLine("Incorrect pin. Please try again!");
             }
         }
+
         Console.WriteLine("Welcome " + currentUser.getFirstName() + " :)");
         int option = 0;
         do
